@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 28, 2011 10:43:18 AM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="javadistribute.finalproject.nguyen_kim_shop.models.Orderdetails" table="orderdetails" catalog="db_nguyenkim">
+        <id name="orderDetailId" type="java.lang.Integer">
+            <column name="orderDetailID" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="products" class="javadistribute.finalproject.nguyen_kim_shop.models.Products" fetch="select">
+            <column name="productID" />
+        </many-to-one>
+        <many-to-one name="orders" class="javadistribute.finalproject.nguyen_kim_shop.models.Orders" fetch="select">
+            <column name="orderID" />
+        </many-to-one>
+        <property name="number" type="java.lang.Integer">
+            <column name="number" />
+        </property>
+    </class>
+</hibernate-mapping>

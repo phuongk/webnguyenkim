@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/db_nguyenkim</property>
+    <property name="hibernate.connection.username">root</property>
+    <mapping resource="javadistribute/finalproject/nguyen_kim_shop/models/Orderdetails.hbm.xml"/>
+    <mapping resource="javadistribute/finalproject/nguyen_kim_shop/models/Discounts.hbm.xml"/>
+    <mapping resource="javadistribute/finalproject/nguyen_kim_shop/models/Catelogies.hbm.xml"/>
+    <mapping resource="javadistribute/finalproject/nguyen_kim_shop/models/Suppliers.hbm.xml"/>
+    <mapping resource="javadistribute/finalproject/nguyen_kim_shop/models/Products.hbm.xml"/>
+    <mapping resource="javadistribute/finalproject/nguyen_kim_shop/models/Imagelist.hbm.xml"/>
+    <mapping resource="javadistribute/finalproject/nguyen_kim_shop/models/Orders.hbm.xml"/>
+    <mapping resource="javadistribute/finalproject/nguyen_kim_shop/models/Status.hbm.xml"/>
+    <mapping resource="javadistribute/finalproject/nguyen_kim_shop/models/Roles.hbm.xml"/>
+    <mapping resource="javadistribute/finalproject/nguyen_kim_shop/models/Customers.hbm.xml"/>
+    <mapping resource="javadistribute/finalproject/nguyen_kim_shop/models/Tags.hbm.xml"/>
+  </session-factory>
+</hibernate-configuration>
