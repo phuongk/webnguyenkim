@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 28, 2011 10:43:18 AM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="javadistribute.finalproject.nguyen_kim_shop.models.Status" table="status" catalog="db_nguyenkim">
+        <id name="statusId" type="java.lang.Integer">
+            <column name="StatusID" />
+            <generator class="identity" />
+        </id>
+        <property name="statusName" type="string">
+            <column name="statusName" length="45" />
+        </property>
+        <set name="orderses" inverse="true">
+            <key>
+                <column name="orderStatus" />
+            </key>
+            <one-to-many class="javadistribute.finalproject.nguyen_kim_shop.models.Orders" />
+        </set>
+        <set name="productses" inverse="true">
+            <key>
+                <column name="productStatusID" />
+            </key>
+            <one-to-many class="javadistribute.finalproject.nguyen_kim_shop.models.Products" />
+        </set>
+    </class>
+</hibernate-mapping>
