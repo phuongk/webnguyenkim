@@ -1,0 +1,32 @@
+.contentLinkdie {
+	width:707px;
+	height:255px;
+	background:url('../../images/bglinkdie.png') center no-repeat;
+}
+
+.contentLinkdie p {
+	display:block;
+	margin:105px 0 0 25px;
+	width:370px;
+	font-family:Tahoma;
+	font-size:15px;
+	color:#464646;
+}
+
+.contentLinkdie a ,contentLinkdie a:visited{
+	color:#005aff;
+	text-decoration:none;
+}
+
+.contentLinkdie a:hover {
+	text-decoration:none;
+}
+
+.logoLinkdie {
+	width:206px;
+	height:52px;
+}
+
+.logoLinkdie img {
+	margin:33px 0 0 25px;	
+}

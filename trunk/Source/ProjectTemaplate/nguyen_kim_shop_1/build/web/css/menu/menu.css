@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* /Styles for the fixed width layout */ 
+/* /main styles */
+
+/* top styles */
+#top_menu {
+    padding: 0 8px 0 0;
+    text-align: right;
+    clear: both;
+}
+#top_menu ul.top-menu {
+    background: transparent none;
+}
+#top_menu ul li.first-level {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    background-color: transparent;
+    height: 20px;
+}
+#top_menu ul li.first-level span {
+    padding: 0 16px 4px 37px;
+}
+#top_menu li.first-level a, #top_menu li.first-level a:hover, #top_menu ul li.first-level.cm-active a, #top_menu ul li.first-level.cm-active a:hover {
+    color: #b2b2b2;
+    font: bold 118% Arial, Helvetica, sans-serif;
+}
+#top_menu ul li.first-level.cm-active a, #top_menu ul li.first-level a:hover, #top_menu ul li.first-level.cm-active a:hover, #top_menu ul li:hover a  {
+    color: #cee613;
+    font: bold 118% Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+#top_menu ul ul {
+    margin-top: 0;
+}
+#top_menu li.first-level li a, #top_menu li.first-level li a:hover, #top_menu li.first-level.cm-active li a, #top_menu li.first-level.cm-active li a:hover {
+    padding: 5px 23px 4px 12px;
+    color: #2a2a2a;
+    font: normal 109% Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
