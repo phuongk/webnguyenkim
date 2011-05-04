@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 29, 2011 10:07:06 AM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+  <class catalog="db_nguyenkim" name="javadistribute.finalproject.nguyen_kim_shop.models.Imagelist" table="imagelist">
+    <id name="imageListId" type="java.lang.Integer">
+      <column name="ImageListID"/>
+      <generator class="identity"/>
+    </id>
+    <property name="productId" type="java.lang.Integer">
+      <column name="productID"/>
+    </property>
+    <property name="imageUrl" type="string">
+      <column length="100" name="imageURL"/>
+    </property>
+    <set inverse="true" name="productses">
+      <key>
+        <column name="productImagesID"/>
+      </key>
+      <one-to-many class="javadistribute.finalproject.nguyen_kim_shop.models.Products"/>
+    </set>
+    <set inverse="true" name="productses_1">
+      <key>
+        <column name="productImagesID"/>
+      </key>
+      <one-to-many class="javadistribute.finalproject.nguyen_kim_shop.models.Products"/>
+    </set>
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Title      : Concrete
+Version    : 1.0
+Released   : 20080825
+Description: A Web 2.0 design with fluid width suitable for blogs and small websites.
+-->
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd"
+      xmlns:p="tapestry:parameter">
+    
+    <body>
+        <div class="headerp">
+            <div class="new_header_top">
+                <div style="height:150px">
+                    <div class="select-wrap nk_language">
+                        <img src="images/vn.png" width="16" height="16" border="0" alt="" onclick="$('#sw_select_VN_wrap__nk').click();" class="icons"/>
+
+                        <a class="select-link cm-combo-on cm-combination" id="sw_select_VN_wrap__nk" onclick="$('#select_VN_wrap_').css('display','block'); $('#select_VN_wrap_').css('left',0); $('#select_VN_wrap_').css('top',0);">Vietnamese</a>
+
+                        <div id="select_VN_wrap_" class="select-popup cm-popup-box hidden">
+                            <img src="images/icon_close.gif" width="13" height="13" border="0" alt="" class="close-icon no-margin cm-popup-switch"/>
+                            <ul class="cm-select-list">
+                                <li>
+                                    <a rel="nofollow" name="EN" href="/?sl=EN" style="background-image: url('/images/en.png');" class="item-link ">English</a>
+                                </li>
+                                <li>
+                                    <a rel="nofollow" name="VN" href="/?sl=VN" style="background-image: url('/images/vn.png');" class="item-link active">Vietnamese</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="logo-image">
+                        <a href="index.php">
+                            <img src="images/logo.jpg" width="250" height="50" border="0" alt="Nguyen Kim - Trung Tam Mua Sam Sai Gon" />
+                        </a>
+                        <div class="header_content">
+
+                            <div class="float-right" id="sign_io">
+						Chào mừng quý khách!&nbsp;
+                                <a id="sw_login" class="cm-combination separator">Đăng nhập</a>
+				hoặc
+                                <a href="/index.php?dispatch=profiles.add">Đăng ký</a>
+
+                                <div id="login" class="cm-popup-box hidden">
+                                    <div class="login-popup">
+                                        <div class="header">Đăng nhập</div>
+
+                                        <form name="login_popup_form" action="/" method="post">
+                                            <input type="hidden" name="form_name" value="login_popup_form" />
+                                            <input type="hidden" name="return_url" value="index.php" />
+
+                                            <div class="form-field">
+                                                <label for="login_popup" class="cm-required">Tên truy cập:</label>
+                                                <input type="text" id="login_popup" name="user_login" size="30" value="" class="input-text cm-focus" />
+                                            </div>
+
+                                            <div class="form-field">
+                                                <label for="psw_popup" class="cm-required">Mật khẩu:</label>
+                                                <input type="password" id="psw_popup" name="password" size="30" value="" class="input-text password" />
+                                            </div>
+
+                                            <p class="left">Nhập mã xác nhận</p>
+
+                                            <p>
+                                                <input class="captcha-input-text valign" type="text" name="verification_answer" value= "" autocomplete="off" />
+                                                <img id="verification_image_login_login_popup_form" class="image-captcha valign" src="/index.php?dispatch=image.captcha&amp;verification_id=3kfp1k1keb9ke4n8mpum0k5792%3Alogin_login_popup_form&amp;login_login_popup_form4db995948ce0a=" alt="" onclick="this.src += 'reload' ;"  width="100" height="25" />
+                                            </p>
+
+                                            <div class="clear">
+                                                <div class="float-left">
+                                                    <input class="valign checkbox" type="checkbox" name="remember_me" id="remember_me_popup" value="Y" />
+                                                    <label for="remember_me_popup" class="valign lowercase">Ghi nhớ tài khoản</label>
+                                                </div>
+
+                                                <div class="float-right">
+
+                                                    <span   class="button-submit-action">
+                                                        <input   type="submit" name="dispatch[auth.login]"  value="Đăng nhập" />
+                                                    </span>
+
+                                                </div>
+                                            </div>
+                                            <p class="center" id="nk_popup">
+                                                <a href="/index.php?dispatch=auth.recover_password">Bạn quên mật khẩu ?</a>
+                                            </p>
+                                            <p class="center" style="margin-top:5px;">Bạn chưa có tài khoản ?
+                                                <a href="/index.php?dispatch=profiles.add" style="color:#2DAFCB;font-weight:bold;">Đăng ký tại đây.</a>
+                                            </p>
+                                        </form>
+
+                                    </div>
+                                </div>
+						<!--sign_io-->
+                            </div>
+
+                            <p class="quick-links">&nbsp;
+                                <a href="#">Giới thiệu |</a>
+                                <a href="#">Dịch vụ |</a>
+                                <a href="#">Trợ giúp |</a>
+                                <a href="#">Liên hệ</a>
+                            </p>
+
+                            <ul id="nav-reflection">
+                                <li>
+                                    <a href="#">
+                                        <img src="images/icon_news.jpg" />
+                                        <span>Tin tức</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/icon_forum.jpg" />
+                                        <span>Diễn đàn</span>
+                                    </a>
+                                </li>
+                                <li>
+                <!-- Begin SupportSuite Javascript Code -->
+                                    <script type="text/javascript" src="#"></script>
+                                    <img src="images/staffoffline.gif" border="0" alt="Live Support is offline. Click here to leave a message." title="Live Support is offline. Click here to leave a message."/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hỗ trợ trực tuyến
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                     <!--Menu o day-->
+
+                    <t:MenuBar/>
+
+                     <!--ket thuc menu-->
+
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>
