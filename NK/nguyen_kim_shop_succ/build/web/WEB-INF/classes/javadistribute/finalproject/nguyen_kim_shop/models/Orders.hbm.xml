@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 29, 2011 10:07:06 AM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+  <class catalog="db_nguyenkim" name="javadistribute.finalproject.nguyen_kim_shop.models.Orders" table="orders">
+    <id name="orderId" type="java.lang.Integer">
+      <column name="OrderID"/>
+      <generator class="identity"/>
+    </id>
+    <many-to-one class="javadistribute.finalproject.nguyen_kim_shop.models.Customers" fetch="select" name="customers">
+      <column name="customerID"/>
+    </many-to-one>
+    <many-to-one class="javadistribute.finalproject.nguyen_kim_shop.models.Status" fetch="select" name="status">
+      <column name="orderStatus"/>
+    </many-to-one>
+    <property name="orderDate" type="date">
+      <column length="10" name="orderDate"/>
+    </property>
+    <set inverse="true" name="orderdetailses">
+      <key>
+        <column name="orderID"/>
+      </key>
+      <one-to-many class="javadistribute.finalproject.nguyen_kim_shop.models.Orderdetails"/>
+    </set>
+    <set inverse="true" name="orderdetailses_1">
+      <key>
+        <column name="orderID"/>
+      </key>
+      <one-to-many class="javadistribute.finalproject.nguyen_kim_shop.models.Orderdetails"/>
+    </set>
+  </class>
+</hibernate-mapping>

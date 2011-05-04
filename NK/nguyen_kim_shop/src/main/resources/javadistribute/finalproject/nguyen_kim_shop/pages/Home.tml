@@ -1,0 +1,90 @@
+<html t:type="masterpage" title="HomePage" xmlns:t="http://tapestry.apache.org/schema/tapestry_5_0_0.xsd">
+    <div class="bodyp">
+        <div class="boxp">
+            <div style="height:250px">
+            </div>
+        </div>
+        <div class="boxp">
+            <div style="height:250px">
+            </div>
+        </div>
+        <div class="boxp">
+            <div class="topic_hotp" style="height:252px">
+                <label style="padding-left:25px;">Sản phẩm mới</label>
+                <div class="border scroll-main">
+                    <div class="hot-scroll-container clear">
+                        <div class="hot-scroll-prev cm-scroll-left"></div>
+                        <div class="hot-scroll-next cm-scroll-right"></div>
+
+                        <table width="100%" border="0">
+                            <tr>
+                                <td>
+                                    <div class="image-border center">
+                                        <div style="height:115px;vertical-align:middle;">
+                                            <a href="/netbook-sony-vpcyb15ag-p-e1.html">
+                                                <img src="/images/thumbnails/25/120/120/NOTEBOOK_SONY_VPCYB15AG-P_E1_1.jpg" width="110" height="110" alt="NETBOOK SONY VPCYB15AG/P E1" style="border:1px solid #CCC9C9;margin-top:10px;"/>
+                                            </a>
+                                        </div>
+                                        <div style="height:35px;vertical-align:middle;margin-top:25px;">
+                                            <a href="/netbook-sony-vpcyb15ag-p-e1.html">
+                                                <span class="scroll-title" width="19%">NETBOOK SONY VPCYB15AG/P E1</span>
+                                            </a>
+                                        </div>
+                                        <p class="price" style="font-size:13px;">11.990.000&#160;VND</p>
+                                        <br/>
+                                        <p>
+                                            <a class="text-button" href="/netbook-sony-vpcyb15ag-p-e1.html">Chọn quà tặng</a>
+                                        </p>
+                                    </div>
+
+                                </td>
+
+
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="boxp">
+            <div class="topic_hotp" style="height:250px">
+                <label style="padding-left:1px;">Sản phẩm khuyến mãi</label>
+                <div class="border scroll-main">
+                    <div class="hot-scroll-container clear">
+                        <div class="hot-scroll-prev cm-scroll-left"></div>
+                        <div class="hot-scroll-next cm-scroll-right"></div>
+
+                        <table width="100%" border="0">
+                            <tr>
+                                <td>
+                                    <div class="image-border center">
+                                        <div style="height:115px;vertical-align:middle;">
+                                            <a href="/netbook-sony-vpcyb15ag-p-e1.html">
+                                                <img src="/images/thumbnails/25/120/120/NOTEBOOK_SONY_VPCYB15AG-P_E1_1.jpg" width="110" height="110" alt="NETBOOK SONY VPCYB15AG/P E1" style="border:1px solid #CCC9C9;margin-top:10px;"/>
+                                            </a>
+                                        </div>
+                                        <div style="height:35px;vertical-align:middle;margin-top:25px;">
+                                            <a href="/netbook-sony-vpcyb15ag-p-e1.html">
+                                                <span class="scroll-title" width="19%">NETBOOK SONY VPCYB15AG/P E1</span>
+                                            </a>
+                                        </div>
+                                        <p class="price" style="font-size:13px;">11.990.000&#160;VND</p>
+                                        <br/>
+                                        <p>
+                                            <a class="text-button" href="/netbook-sony-vpcyb15ag-p-e1.html">Chọn quà tặng</a>
+                                        </p>
+                                    </div>
+
+                                </td>
+
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</html>
+
+

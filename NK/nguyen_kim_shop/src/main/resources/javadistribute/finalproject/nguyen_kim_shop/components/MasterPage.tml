@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd"
+      xmlns:p="tapestry:parameter">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="style.css" type="text/css" rel="stylesheet"/>
+        <link href="css/menu/dropdown.css" type="text/css" rel="stylesheet"/>
+        <link href="css/menu/styles_nk.css" type="text/css" rel="stylesheet"/>
+        <link href="css/menu/styles.nk.css" type="text/css" rel="stylesheet"/>
+        <title></title>
+    </head>
+
+    <body>
+        <div class="wrapperp">
+            <t:Header/>
+            <hr/>
+            <t:body/>
+            <hr/>
+            <t:Footer/>
+        </div>
+        <br/>
+        <div style="text-align:center;">
+            <p>Copyright &copy; 1999 - 2011 Nguyễn Kim JSC.</p>
+            <p>Số ĐKKD : 0302286281 Giấy phép số 14/GP-STTTT do Sở Thông Tin &amp; Truyền Thông cấp</p>
+        </div>
+    </body>
+</html>

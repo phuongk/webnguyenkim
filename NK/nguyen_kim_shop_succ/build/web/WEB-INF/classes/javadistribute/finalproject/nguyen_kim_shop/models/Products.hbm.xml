@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 29, 2011 10:07:06 AM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+  <class catalog="db_nguyenkim" name="javadistribute.finalproject.nguyen_kim_shop.models.Products" table="products">
+    <id name="productId" type="java.lang.Integer">
+      <column name="productID"/>
+      <generator class="identity"/>
+    </id>
+    <many-to-one class="javadistribute.finalproject.nguyen_kim_shop.models.Tags" fetch="select" name="tags">
+      <column name="productTagsID"/>
+    </many-to-one>
+    <many-to-one class="javadistribute.finalproject.nguyen_kim_shop.models.Imagelist" fetch="select" name="imagelist">
+      <column name="productImagesID"/>
+    </many-to-one>
+    <many-to-one class="javadistribute.finalproject.nguyen_kim_shop.models.Status" fetch="select" name="status">
+      <column name="productStatusID"/>
+    </many-to-one>
+    <many-to-one class="javadistribute.finalproject.nguyen_kim_shop.models.Catelogies" fetch="select" name="catelogies">
+      <column name="catelogyID"/>
+    </many-to-one>
+    <many-to-one class="javadistribute.finalproject.nguyen_kim_shop.models.Suppliers" fetch="select" name="suppliers">
+      <column name="supplierID"/>
+    </many-to-one>
+    <property name="productName" type="string">
+      <column length="100" name="productName"/>
+    </property>
+    <property name="productDescription" type="string">
+      <column length="65535" name="productDescription"/>
+    </property>
+    <property name="productDetail" type="string">
+      <column length="65535" name="productDetail"/>
+    </property>
+    <property name="productSmallImage" type="java.lang.Integer">
+      <column name="productSmallImage"/>
+    </property>
+    <property name="productFeatures" type="string">
+      <column length="65535" name="productFeatures"/>
+    </property>
+    <property name="productComments" type="string">
+      <column length="65535" name="productComments"/>
+    </property>
+    <property name="productQuantity" type="java.lang.Integer">
+      <column name="productQuantity"/>
+    </property>
+    <property name="productPrice" type="java.lang.Float">
+      <column name="productPrice" precision="12" scale="0"/>
+    </property>
+    <set inverse="true" name="discountses">
+      <key>
+        <column name="productID"/>
+      </key>
+      <one-to-many class="javadistribute.finalproject.nguyen_kim_shop.models.Discounts"/>
+    </set>
+    <set inverse="true" name="discountses_1">
+      <key>
+        <column name="productID"/>
+      </key>
+      <one-to-many class="javadistribute.finalproject.nguyen_kim_shop.models.Discounts"/>
+    </set>
+    <set inverse="true" name="orderdetailses">
+      <key>
+        <column name="productID"/>
+      </key>
+      <one-to-many class="javadistribute.finalproject.nguyen_kim_shop.models.Orderdetails"/>
+    </set>
+    <set inverse="true" name="orderdetailses_1">
+      <key>
+        <column name="productID"/>
+      </key>
+      <one-to-many class="javadistribute.finalproject.nguyen_kim_shop.models.Orderdetails"/>
+    </set>
+  </class>
+</hibernate-mapping>

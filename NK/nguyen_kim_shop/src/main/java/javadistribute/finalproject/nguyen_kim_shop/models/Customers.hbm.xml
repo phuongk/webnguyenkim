@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 29, 2011 10:07:06 AM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+  <class catalog="db_nguyenkim" name="javadistribute.finalproject.nguyen_kim_shop.models.Customers" table="customers">
+    <id name="customerId" type="java.lang.Integer">
+      <column name="customerID"/>
+      <generator class="identity"/>
+    </id>
+    <many-to-one class="javadistribute.finalproject.nguyen_kim_shop.models.Roles" fetch="select" name="roles">
+      <column name="roleID"/>
+    </many-to-one>
+    <property name="firstName" type="string">
+      <column length="30" name="firstName"/>
+    </property>
+    <property name="middleName" type="string">
+      <column length="45" name="middleName"/>
+    </property>
+    <property name="lastName" type="string">
+      <column length="45" name="lastName"/>
+    </property>
+    <property name="email" type="string">
+      <column length="100" name="email"/>
+    </property>
+    <property name="address" type="string">
+      <column length="100" name="address"/>
+    </property>
+    <property name="phone" type="string">
+      <column length="20" name="phone"/>
+    </property>
+    <property name="birthday" type="date">
+      <column length="10" name="birthday"/>
+    </property>
+    <property name="username" type="string">
+      <column length="45" name="username" unique="true"/>
+    </property>
+    <property name="password" type="string">
+      <column length="50" name="password"/>
+    </property>
+    <set inverse="true" name="orderses">
+      <key>
+        <column name="customerID"/>
+      </key>
+      <one-to-many class="javadistribute.finalproject.nguyen_kim_shop.models.Orders"/>
+    </set>
+    <set inverse="true" name="orderses_1">
+      <key>
+        <column name="customerID"/>
+      </key>
+      <one-to-many class="javadistribute.finalproject.nguyen_kim_shop.models.Orders"/>
+    </set>
+  </class>
+</hibernate-mapping>

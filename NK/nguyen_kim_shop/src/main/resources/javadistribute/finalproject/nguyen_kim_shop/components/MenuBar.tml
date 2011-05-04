@@ -1,0 +1,1114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Title      : Concrete
+Version    : 1.0
+Released   : 20080825
+Description: A Web 2.0 design with fluid width suitable for blogs and small websites.
+-->
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd"
+      xmlns:p="tapestry:parameter">
+  
+    <body>
+        <t:content>
+            <div class="new_header_menu">
+                <div id="top_menu">
+                    <ul class="top-menu dropdown">
+                        <li class="first-level  cm-active">
+                            <span>
+                                <a href="#">Trang Chủ</a>
+                            </span>
+                        </li>
+                        <li class="first-level">
+                            <span>
+                                <a href="#">Điện tử</a>
+                            </span>
+                            <ul>
+                                <li class="dir">
+                                    <a href="#">Cassette</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Philips</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                                <li>
+                                    <a href="#">Phụ kiện</a>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+
+                                <li class="dir">
+                                    <a href="#">Tivi</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">JVC</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">LG</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                                <li class="dir">
+                                    <a href="#">Bộ thu phát tín hiệu</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">LG</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                                <li class="dir">
+                                    <a href="#">Amply</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Cambridge</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                                <li class="dir">
+                                    <a href="#">Micro</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Guinness</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                                <li class="dir">
+                                    <a href="#">Đầu đĩa</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Arirang</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                                <li class="dir">
+                                    <a href="#">LCD</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">LG</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">JVC</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">Sony</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">Sharp</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">Sanyo</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">Sam sung</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">Toshiba</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">Panasonic</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                                <li class="dir">
+                                    <a href="#">Dàn máy</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Sony</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">JVC</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                                <li class="dir">
+                                    <a href="#">Loa</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Master</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                            </ul>
+                        </li>
+                        <li class="h-sep">&nbsp;</li>
+
+                        <li class="first-level">
+                            <span>
+                                <a href="#">Điện lạnh</a>
+                            </span>
+                            <ul>
+                                <li class="dir">
+                                    <a href="#">Tủ lạnh</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Sony</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                                <li class="dir">
+                                    <a href="#">Máy sấy</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Fegurson</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                                <li class="dir">
+                                    <a href="#">Máy giặt</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">General</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                                <li class="dir">
+                                    <a href="#">Tủ đông</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Sanaky</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                                <li class="dir">
+                                    <a href="#">Máy nước nóng</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Hotwatter</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                                <li class="dir">
+                                    <a href="#">Máy lọc không khí</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">AirSky</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                                <li class="dir">
+                                    <a href="#">Tủ mát</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Kiata</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                                <li>
+                                    <a href="#">Máy lọc nước</a>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+
+                                <li class="dir">
+                                    <a href="#">Máy nóng lạnh</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Kangaroo</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                                <li class="dir">
+                                    <a href="#">Máy lạnh</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">LG</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                            </ul>
+                        </li>
+                        <li class="h-sep">&nbsp;</li>
+                        <li class="first-level">
+                            <span>
+                                <a href="#">Gia dụng</a>
+                            </span>
+                            <ul>
+                                <li class="dir">
+                                    <a href="#">Ép trái cây</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Tefal</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                                <li class="dir">
+                                    <a href="#">Nồi cơm điện</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">CoockEle</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                                <li class="dir">
+                                    <a href="#">Lò vi ba</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">LG</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                                <li class="dir">
+                                    <a href="#">Nồi áp suất</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Magic</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                                <li>
+                                    <a href="#">Các sản phẩm khác</a>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+
+                                <li class="dir">
+                                    <a href="#">Đèn</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Philips</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                                <li class="dir">
+                                    <a href="#">Bàn ủi</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Philips</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                                <li class="dir">
+                                    <a href="#">Bếp ga - Bếp điện từ</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Shine</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">Tefal</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                                <li class="dir">
+                                    <a href="#">Nồi</a>
+                                    <ul>
+                                        <li class="dir">
+                                            <a href="#">HappyCock</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Shine</a>
+                                                </li>
+                                                <li class="h-sep">&nbsp;</li>
+
+                                            </ul>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                                <li class="dir">
+                                    <a href="#">Quạt</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Taiha</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">Điện Quang</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                            </ul>
+                        </li>
+                        <li class="h-sep">&nbsp;</li>
+                        <li class="first-level">
+                            <span>
+                                <a href="#">Tin học</a>
+                            </span>
+                            <ul>
+                                <li class="dir">
+                                    <a href="#">Loa</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Soundmax</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">Creative</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">Philips</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">Logitech</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                                <li class="dir">
+                                    <a href="#">PC</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Dell</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">Lenovo</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">Acer</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">HP</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">CMS</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                                <li class="dir">
+                                    <a href="#">Phụ kiện</a>
+                                    <ul>
+                                        <li class="dir">
+                                            <a href="#">USB</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">HP</a>
+                                                </li>
+                                                <li class="h-sep">&nbsp;</li>
+
+                                                <li>
+                                                    <a href="#">Kingmax</a>
+                                                </li>
+                                                <li class="h-sep">&nbsp;</li>
+
+                                            </ul>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+                                        <li class="dir">
+                                            <a href="#">Ổ cứng di động</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Seagate</a>
+                                                </li>
+                                                <li class="h-sep">&nbsp;</li>
+
+                                                <li>
+                                                    <a href="#">Samsung</a>
+                                                </li>
+                                                <li class="h-sep">&nbsp;</li>
+
+                                            </ul>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+                                        <li class="dir">
+                                            <a href="#">Mouse</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Misumi</a>
+                                                </li>
+                                                <li class="h-sep">&nbsp;</li>
+
+                                                <li>
+                                                    <a href="#">Genius</a>
+                                                </li>
+                                                <li class="h-sep">&nbsp;</li>
+
+                                                <li>
+                                                    <a href="#">Logitech</a>
+                                                </li>
+                                                <li class="h-sep">&nbsp;</li>
+
+                                            </ul>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+                                        <li class="dir">
+                                            <a href="#">Keyboard</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Logitech</a>
+                                                </li>
+                                                <li class="h-sep">&nbsp;</li>
+
+                                                <li>
+                                                    <a href="#">Dell</a>
+                                                </li>
+                                                <li class="h-sep">&nbsp;</li>
+
+                                                <li>
+                                                    <a href="#">HP</a>
+                                                </li>
+                                                <li class="h-sep">&nbsp;</li>
+
+                                            </ul>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+                                        <li class="dir">
+                                            <a href="#">Headphone</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Somic</a>
+                                                </li>
+                                                <li class="h-sep">&nbsp;</li>
+
+                                                <li>
+                                                    <a href="#">Creative</a>
+                                                </li>
+                                                <li class="h-sep">&nbsp;</li>
+
+                                            </ul>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                                <li class="dir">
+                                    <a href="#">Notebook</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Asus</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">Samsung</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">Lenovo</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">Apple</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">Acer</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">Gigabyte</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">Toshiba</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">Gateway</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">Sony</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">Dell</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">HP</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                                <li class="dir">
+                                    <a href="#">Máy in</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Samsung</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">Cannon</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">Brother</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">Epson</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">HP</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                                <li class="dir">
+                                    <a href="#">MonitorLCD</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Panasonic</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">Philips</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">LG</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">ViewSonic</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                            </ul>
+                        </li>
+                        <li class="h-sep">&nbsp;</li>
+                        <li class="first-level">
+                            <span>
+                                <a href="#">Điện thoại</a>
+                            </span>
+                            <ul>
+                                <li class="dir">
+                                    <a href="#">Điện thoại hữu tuyến</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Panasonic</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                                <li class="dir">
+                                    <a href="#">Điện thọa vô tuyến</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Philips</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">Ge</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                                <li class="dir">
+                                    <a href="#">Điện thoại di động</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Blackbery</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">Mobell</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">QMobile</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">Nokia</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">FMobile</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">Samsung</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">HTC</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">LG</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                            </ul>
+                        </li>
+                        <li class="h-sep">&nbsp;</li>
+                        <li class="first-level">
+                            <span>
+                                <a href="#">Giải trí</a>
+                            </span>
+                            <ul>
+                                <li class="dir">
+                                    <a href="#">MP3</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Sony</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">Smartone</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                                <li class="dir">
+                                    <a href="#">MP4</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Creative</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">Sony</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">Smartone</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                                <li class="dir">
+                                    <a href="#">Từ điển điện tử</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Kim từ điên</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">Tân từ điển</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                                <li class="dir">
+                                    <a href="#">Máy ảnh</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Cannon</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">Fuji</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">Panasonic</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">Samsung</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                        <li>
+                                            <a href="#">Sony</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                            </ul>
+                        </li>
+                        <li class="h-sep">&nbsp;</li>
+                                    <!--<t:outputraw value="MenuMutilLevel" />-->
+
+                        <li class="first-level">
+                            <span>
+                                <a href="#">Download</a>
+                            </span>
+                            <ul>
+                                <li>
+                                    <a href="#">Bảng giá</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="first-level">
+                            <span>
+                                <a href="#">Thẻ Quà Tặng</a>
+                            </span>
+                        </li>
+                        <li class="first-level">
+                            <span>
+                                <a href="#">KHUYẾN MÃI</a>
+                            </span>
+                            <ul>
+                                <li class="dir">
+                                    <a href="/khuyen-mai/le-hoi-mua-sam-online.html">Lễ hội mua sắm online</a>
+
+                                    <ul>
+                                        <li>
+                                            <a href="/khuyen-mai/le-hoi-mua-sam-online/gia-dung-le-hoi-mua-sam-online.html">Gia dụng.</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+                                        <li>
+                                            <a href="/khuyen-mai/le-hoi-mua-sam-online/vien-thong-le-hoi-mua-sam-online.html">Viễn thông.</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+                                        <li>
+                                            <a href="/khuyen-mai/le-hoi-mua-sam-online/giai-tri-le-hoi-mua-sam-online.html">Giải trí.</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+                                        <li>
+                                            <a href="/khuyen-mai/le-hoi-mua-sam-online/tin-hoc-le-hoi-mua-sam-online.html">Tin học.</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+                                        <li>
+                                            <a href="/khuyen-mai/le-hoi-mua-sam-online/dien-tu-le-hoi-mua-sam-online.html">Điện tử.</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                                <li class="dir">
+                                    <a href="/khuyen-mai/tri-an-khach-hang.html">Tri ân khách hàng</a>
+
+                                    <ul>
+                                        <li>
+                                            <a href="/khuyen-mai/tri-an-khach-hang/dien-tu.-vn.html">Điện tử.</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+                                        <li>
+                                            <a href="/khuyen-mai/tri-an-khach-hang/dien-lanh.-vn.html">Điện lạnh.</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+                                        <li>
+                                            <a href="/khuyen-mai/tri-an-khach-hang/gia-dung.-vn.html">Gia dụng.</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                                <li class="dir">
+                                    <a href="/khuyen-mai/tan-huong-cuoc-song-cong-nghe-so.html">Tận hưởng cuộc sống công nghệ số</a>
+
+                                    <ul>
+                                        <li>
+                                            <a href="/khuyen-mai/tan-huong-cuoc-song-cong-nghe-so/tan-huong-cuoc-song-cong-nghe-so-dien-tu.html">Điện tử.</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+                                        <li>
+                                            <a href="/khuyen-mai/tan-huong-cuoc-song-cong-nghe-so/tan-huong-cuoc-song-cong-nghe-so-dien-lanh.html">Điện lạnh.</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+                                        <li>
+                                            <a href="/khuyen-mai/tan-huong-cuoc-song-cong-nghe-so/tan-huong-cuoc-song-cong-nghe-so-tin-hoc.html">Tin học.</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+                                        <li>
+                                            <a href="/khuyen-mai/tan-huong-cuoc-song-cong-nghe-so/tan-huong-cuoc-song-cong-nghe-so-giai-tri.html">Giải trí.</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+                                        <li>
+                                            <a href="/khuyen-mai/tan-huong-cuoc-song-cong-nghe-so/tan-huong-cuoc-song-cong-nghe-so-vien-thong.html">Viễn thông.</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+                                        <li>
+                                            <a href="/khuyen-mai/tan-huong-cuoc-song-cong-nghe-so/tan-huong-cuoc-song-cong-nghe-so-gia-dung.html">Gia dụng.</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                                <li>
+                                    <a href="/khuyen-mai/giam-ngay-25-khi-mua-headphone-philips.html">Giảm ngay 25% khi mua Headphone Philips</a>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                                <li>
+                                    <a href="/khuyen-mai/cung-nguyen-kim-cham-soc-gia-dinh-ban.html">Cùng Nguyễn Kim chăm sóc gia đình bạn</a>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                                <li class="dir">
+                                    <a href="/khuyen-mai/cung-nguyen-kim-thach-thuc-mua-nong.html">Cùng Nguyễn Kim thách thức mùa nóng</a>
+
+                                    <ul>
+                                        <li>
+                                            <a href="/khuyen-mai/cung-nguyen-kim-thach-thuc-mua-nong/dien-lanh-cung-nguyen-kim-thach-thuc-mua-nong.html">Điện lạnh.</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+                                        <li>
+                                            <a href="/khuyen-mai/cung-nguyen-kim-thach-thuc-mua-nong/giai-tri-cung-nguyen-kim-thach-thuc-mua-nong.html">Giải trí.</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+                                        <li>
+                                            <a href="/khuyen-mai/cung-nguyen-kim-thach-thuc-mua-nong/vien-thong-cung-nguyen-kim-thach-thuc-mua-nong.html">Viễn thông.</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+                                        <li>
+                                            <a href="/khuyen-mai/cung-nguyen-kim-thach-thuc-mua-nong/dien-tu-cung-nguyen-kim-thach-thuc-mua-nong.html">Điện tử.</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+                                        <li>
+                                            <a href="/khuyen-mai/cung-nguyen-kim-thach-thuc-mua-nong/tin-hoc-cung-nguyen-kim-thach-thuc-mua-nong.html">Tin học.</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+                                        <li>
+                                            <a href="/khuyen-mai/cung-nguyen-kim-thach-thuc-mua-nong/gia-dung-cung-nguyen-kim-thach-thuc-mua-nong.html">Gia dụng.</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="h-sep">&nbsp;</li>
+                                <li class="dir">
+                                    <a href="/khuyen-mai/hang-khuyen-mai-trong-tuan.html">Khuyến mãi trong tuần</a>
+
+                                    <ul>
+                                        <li>
+                                            <a href="/khuyen-mai/hang-khuyen-mai-trong-tuan/giam-gia-dac-biet-den-3-000-000d.html">Giảm giá đặc biệt</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+                                        <li>
+                                            <a href="/khuyen-mai/hang-khuyen-mai-trong-tuan/dien-tu-khuyen-mai-trong-tuan.html">Điện tử</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+                                        <li>
+                                            <a href="/khuyen-mai/hang-khuyen-mai-trong-tuan/dien-lanh-khuyen-mai-trong-tuan.html">Điện Lạnh</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+                                        <li>
+                                            <a href="/khuyen-mai/hang-khuyen-mai-trong-tuan/gia-dung-khuyen-mai-trong-tuan.html">Gia dụng.</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+                                        <li>
+                                            <a href="/khuyen-mai/hang-khuyen-mai-trong-tuan/vien-thong.html">Viễn thông</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+                                        <li>
+                                            <a href="/khuyen-mai/hang-khuyen-mai-trong-tuan/tin-hoc-khuyen-mai-trong-tuan.html">Tin học</a>
+                                        </li>
+                                        <li class="h-sep">&nbsp;</li>
+                                        <li>
+                                            <a href="/khuyen-mai/hang-khuyen-mai-trong-tuan/giai-tri.html">Giải trí</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <img src="images/sale.png" style="margin:-5px 0 0 -20px;"/>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+<!--Khung tim kiem-->
+                <span class="helper-block">&nbsp;</span>
+                <div class="top-tools-container">
+                    <span class="float-left">&nbsp;</span>
+                    <span class="float-right">&nbsp;</span>
+                    <div class="top-tools-helper">
+
+                        <div id="cart_status">
+                            <div class="checkout-link">
+                                <a href="#">Thanh Toán</a>
+                            </div>
+                            <div class="float-left">
+                                <img id="sw_cart_box" class="cm-combination valign hand cm-combo-on" src="images/empty_cart_icon.gif" alt="Giỏ hàng trống" title="Giỏ hàng trống"/>
+                                <span style="color:#c0c0c0;">&nbsp;&nbsp;&nbsp;Giỏ hàng trống</span>
+
+                                <div id="cart_box" class="cart-list cm-popup-box cm-smart-position" style="display: none; ">
+                                    <img src="images/empty_cart_list_icon.gif" alt="Xem giỏ hàng" class="cm-popup-switch hand cart-list-icon"/>
+                                    <div class="list-container">
+                                        <div class="list">
+                                            <p class="center">Giỏ hàng trống</p>
+                                        </div>
+                                        <div class="buttons-container">
+                                            <a href="" class="view-cart">Xem giỏ hàng</a>
+                                            <a href="">Thanh Toán</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+	<!--cart_status-->
+                        </div>
+                        <div class="top-search">
+
+                            <t:form action="/" name="search_form" method="get">
+                                <input type="hidden" name="subcats" value="Y"/>
+                                <input type="hidden" name="type" value="extended"/>
+                                <input type="hidden" name="status" value="A"/>
+                                <input type="hidden" name="pshort" value="Y"/>
+                                <input type="hidden" name="pfull" value="Y"/>
+                                <input type="hidden" name="pname" value="Y"/>
+                                <input type="hidden" name="pkeywords" value="Y"/>
+                                <input type="hidden" name="search_performed" value="Y"/>
+
+                                           <!-- <select name="cid" class="search-selectbox">
+                                                <option value="0">- Tất cả danh mục  -</option>
+                                                <option value="165">Điện tử</option>
+
+                                            </select>-->
+                                <t:select t:model="catelogiesModel" t:encoder="catelogiesEncoder" t:value="selectedCatelogy"/>
+                                    
+                                <input type="text" name="q" value="" onfocus="this.select();" class="search-input cm-quick-search" id="quick_search" autocomplete="off"></input>
+                                <input type="image" src="images/go.gif" alt="Tìm kiếm" title="Tìm kiếm" class="go-button"></input>
+                                <input type="hidden" name="dispatch" value="products.search"></input>
+
+                            </t:form>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t:content>
+    </body>
+</html>
