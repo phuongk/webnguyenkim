@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Title      : Concrete
+Version    : 1.0
+Released   : 20080825
+Description: A Web 2.0 design with fluid width suitable for blogs and small websites.
+-->
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd"
+      xmlns:p="tapestry:parameter">
+   
+    <body>
+       <div class="bottomp">
+                <div style="height:150px">
+                    <div style="height:75%">
+                        <table width="100%" border="0">
+                            <tr>
+                                <td width="28%" height="107">
+                                    <div>
+                                        <a href="http://www.nguyenkim.com/#">
+                                            <img src="images/NK_footer.png" alt="" border="0" />
+                                        </a>
+                                    </div>
+                                    <div>&copy;Công ty Cổ phần Thương mại Nguyễn Kim.
+                                        <br />
+            	          Địa chỉ: 63-65-67 Trần Hưng Đạo, Q1, TP.HCM.
+                                        <br />
+            	          Điện thoại: (84-8) 38 211 211
+                                        <br />
+            	          Fax: (84-8) 38 210 818.
+                                        <br />
+           	          Email:
+                                        <a href="mailto:info@trade.nguyenkim.com">info@trade.nguyenkim.com</a>
+                                    </div>
+                                </td>
+                                <td width="18%">
+                                    <div>CHÍNH SÁCH CÔNG TY</div>
+                                    <div>
+                                        <ul>
+                                            <li>
+                                                <a href="http://www.nguyenkim.com/chinh-sach-th-khach-hang.html">Chính sách Thẻ Khách Hàng</a>
+                                            </li>
+                                            <li>
+                                                <a href="http://www.nguyenkim.com/chinh-sach-dung-th.html">Chính sách dùng thử</a>
+                                            </li>
+                                            <li>
+                                                <a href="http://www.nguyenkim.com/iu-khon.html">Điều khoản-Điều Kiện</a>
+                                            </li>
+                                            <li>
+                                                <a href="http://www.nguyenkim.com/chinh-sach-giao-nhn.html">Chính sách giao nhận</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </td>
+                                <td width="17%">
+                                    <div>QUY ĐỊNH KHÁCH HÀNG</div>
+                                    <div>
+                                        <ul>
+                                            <li>
+                                                <a href="http://www.nguyenkim.com/bo-mt-thong-tin.html">Quy định bảo mật</a>
+                                            </li>
+                                            <li>
+                                                <a href="http://www.nguyenkim.com/quy-nh-t-hang.html">Quy định đặt hàng</a>
+                                            </li>
+                                            <li>
+                                                <a href="http://www.nguyenkim.com/quy-nh-thanh-toan.html">Quy định thanh toán</a>
+                                            </li>
+                                            <li>
+                                                <a href="http://www.nguyenkim.com/quy-nh-i-tr-sn-phm.html">Quy định đổi, trả sản phẩm</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </td>
+                                <td width="17%">
+                                    <div>THÔNG TIN CÔNG TY</div>
+                                    <div>
+                                        <ul>
+                                            <li>
+                                                <a href="http://www.nguyenkim.com/h-thng-trung-tam.html">Hệ thống trung tâm</a>
+                                            </li>
+                                            <li>
+                                                <a href="http://www.nguyenkim.com/gii-thiu-cong-ty.html">Giới thiệu công ty</a>
+                                            </li>
+                                            <li>
+                                                <a href="http://www.nguyenkim.com/cam-kt-ca-nguyn-kim.html">Tiêu chí bán hàng</a>
+                                            </li>
+                                            <li>
+                                                <a href="http://www.nguyenkim.com/tuyn-dng-vn.html">Cơ hội việc làm</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </td>
+                                <td width="20%">
+                                    <div>THÔNG TIN WEBSITE</div>
+                                    <div>
+                                        <ul>
+                                            <li>
+                                                <a href="http://www.nguyenkim.com/index.php?dispatch=sitemap.view">Sơ đồ website</a>
+                                            </li>
+                                            <li>
+                                                <a href="http://www.nguyenkim.com/i-tac-chin-lc.html">Đối tác chiến lược</a>
+                                            </li>
+                                            <li>
+                                                <a href="http://www.nguyenkim.com/hi-ap-t-vn.html">Hỏi đáp, Tư vấn</a>
+                                            </li>
+                                            <li>
+                                                <a href="http://www.nguyenkim.com/lien-h-qung-cao.html">Hợp tác, trao đổi</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <hr/>
+                    </div>
+                    <br/>
+                    <div>
+                        <table width="100%" border="0">
+                            <tr>
+                                <td width="17%"> Follow us on:
+                                    <a href="http://www.nguyenkim.com/index.php?dispatch=wg_rss_feeds">
+                                        <img src="images/rss.png" alt="" border="0" />
+                                    </a>
+                                    <a href="http://twitter.com/Nguyenkimonline">
+                                        <img src="images/twitter.png" alt="" border="0" />
+                                    </a>
+                                    <a href="http://www.lisp4.facebook.com/muasamonline">
+                                        <img src="images/facebook.png" alt="" border="0" />
+                                    </a>
+                                    <a href="http://www.youtube.com/user/ShopNguyenkimonline">
+                                        <img src="images/youtube.png" alt="" border="0" />
+                                    </a>
+                                </td>
+                                <td width="83%" align="right"> Chấp nhận:
+                                    <img src="images/visa.jpg" alt="" border="0" />
+                                    <img src="images/paypal.jpg" alt="" border="0" />
+                                    <img src="images/google.jpg" alt="" border="0" />
+                                    <img src="images/master.jpg" alt="" border="0" />
+                                    <img src="images/onpay.jpg" alt="" border="0" />
+                                    <img src="images/nganluong.jpg" alt="" border="0" />
+                                </td>
+                            </tr>
+                        </table>
+                        <br/>
+                        <br/>
+                        <br/>
+                    </div>
+                </div>
+            </div>
+       
+        
+    </body>
+</html>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 29, 2011 10:07:06 AM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+  <class catalog="db_nguyenkim" name="javadistribute.finalproject.nguyen_kim_shop.models.Parameters" table="parameters">
+    <id name="parameterId" type="java.lang.Integer">
+      <column name="ParameterID"/>
+      <generator class="identity"/>
+    </id>
+    <property name="prameterName" type="string">
+      <column length="45" name="prameterName"/>
+    </property>
+    <property name="parameterType" type="string">
+      <column length="45" name="parameterType"/>
+    </property>
+    <property name="parameterValue" type="java.lang.Double">
+      <column name="parameterValue" precision="22" scale="0"/>
+    </property>
+  </class>
+</hibernate-mapping>
