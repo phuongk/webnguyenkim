@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 29, 2011 10:07:06 AM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+  <class catalog="db_nguyenkim" name="javadistribute.finalproject.nguyen_kim_shop.models.Catelogies" table="catelogies">
+    <id name="catelogyId" type="java.lang.Integer">
+      <column name="catelogyID"/>
+      <generator class="identity"/>
+    </id>
+    <many-to-one class="javadistribute.finalproject.nguyen_kim_shop.models.Catelogies" fetch="select" name="catelogies">
+      <column name="parentCatelogy"/>
+    </many-to-one>
+    <property name="catelogyName" type="string">
+      <column length="45" name="catelogyName"/>
+    </property>
+    <property name="catelogyImage" type="string">
+      <column length="45" name="catelogyImage"/>
+    </property>
+    <property name="catelogyDescription" type="string">
+      <column length="100" name="catelogyDescription"/>
+    </property>
+    <set inverse="true" name="productses">
+      <key>
+        <column name="catelogyID"/>
+      </key>
+      <one-to-many class="javadistribute.finalproject.nguyen_kim_shop.models.Products"/>
+    </set>
+    <set inverse="true" name="catelogieses">
+      <key>
+        <column name="parentCatelogy"/>
+      </key>
+      <one-to-many class="javadistribute.finalproject.nguyen_kim_shop.models.Catelogies"/>
+    </set>
+    <set inverse="true" name="productses_1">
+      <key>
+        <column name="catelogyID"/>
+      </key>
+      <one-to-many class="javadistribute.finalproject.nguyen_kim_shop.models.Products"/>
+    </set>
+    <set inverse="true" name="catelogieses_1">
+      <key>
+        <column name="parentCatelogy"/>
+      </key>
+      <one-to-many class="javadistribute.finalproject.nguyen_kim_shop.models.Catelogies"/>
+    </set>
+  </class>
+</hibernate-mapping>

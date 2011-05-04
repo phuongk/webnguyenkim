@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 29, 2011 10:07:06 AM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+  <class catalog="db_nguyenkim" name="javadistribute.finalproject.nguyen_kim_shop.models.Status" table="status">
+    <id name="statusId" type="java.lang.Integer">
+      <column name="StatusID"/>
+      <generator class="identity"/>
+    </id>
+    <property name="statusName" type="string">
+      <column length="45" name="statusName"/>
+    </property>
+    <set inverse="true" name="orderses">
+      <key>
+        <column name="orderStatus"/>
+      </key>
+      <one-to-many class="javadistribute.finalproject.nguyen_kim_shop.models.Orders"/>
+    </set>
+    <set inverse="true" name="orderses_1">
+      <key>
+        <column name="orderStatus"/>
+      </key>
+      <one-to-many class="javadistribute.finalproject.nguyen_kim_shop.models.Orders"/>
+    </set>
+    <set inverse="true" name="productses">
+      <key>
+        <column name="productStatusID"/>
+      </key>
+      <one-to-many class="javadistribute.finalproject.nguyen_kim_shop.models.Products"/>
+    </set>
+    <set inverse="true" name="productses_1">
+      <key>
+        <column name="productStatusID"/>
+      </key>
+      <one-to-many class="javadistribute.finalproject.nguyen_kim_shop.models.Products"/>
+    </set>
+  </class>
+</hibernate-mapping>
